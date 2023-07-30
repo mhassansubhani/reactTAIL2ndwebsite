@@ -4,11 +4,11 @@ function Navbar() {
 
     const [nav,setNav]=useState(false);
   return (
-    <div className="h-[80px] border-zinc-100 bg-zinc-200 w-full fixed drop-shadow-lg">
+    <div className="h-[80px] border-zinc-100 bg-zinc-200 w-full  drop-shadow-lg">
       <div className="px-2 flex justify-between items-center h-full w-full">
         <div className="flex items-center">
           
-          <h1 className="text-3xl font-bold mr-4 sm:text-4xl"> BRAND.</h1>
+          <h1 className="text-3xl font-bold mr-4 sm:text-4xl font-serif"> DEV.</h1>
           <ul className="md:flex hidden  ">
             <li className="p-4 font-semibold text-lg cursor-pointer hover:scale-105">Home </li>
             <li className="p-4 font-semibold text-lg cursor-pointer hover:scale-105">About</li>
